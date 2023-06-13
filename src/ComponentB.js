@@ -1,24 +1,4 @@
-// ComponentB.js
 
-// import React, { useState } from 'react';
-// import { connect } from 'react-redux';
-// import { useSelector, useDispatch } from 'react-redux';
-// import { updateValue } from './app/storeAction';
-// const ComponentB = ({ updateValue }) => {
-//   const [value, setValue] = useState('');
-//   const dispatch = useDispatch()
-//   const handleChange = (event) => {
-//     const { value } = event.target;
-//     setValue(value);
-//     dispatch(updateValue()); // Dispatch action to update the value in Redux store
-//   }
-
-//   return (
-//     <div>
-//       <input type="text" value={value} onChange={handleChange} />
-//     </div>
-//   );
-// }
 
 
 import React from 'react';
